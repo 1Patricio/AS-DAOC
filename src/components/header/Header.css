@@ -1,0 +1,46 @@
+.container {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    height: 16vh;
+}
+
+.container-logo {
+    align-self: center;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
+img{
+    height: 120px;
+    width: 120px;
+    border-radius: 500%;
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    align-self: center;
+}
+
+.selected {
+    color: white;
+    font-weight: 900;
+}
+.container-logo p {
+    margin-left: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+p{
+    color: white;
+    font-size: 30px;
+}

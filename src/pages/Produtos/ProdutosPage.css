@@ -1,0 +1,96 @@
+/* Estilo Geral da Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+}
+
+/* Cores Diferentes para os Títulos */
+th {
+    color: white;
+    font-weight: bold;
+}
+
+th:nth-child(1) {
+    background-color: #ff6f61; /* Vermelho para ID */
+}
+
+th:nth-child(2) {
+    background-color: #4caf50; /* Verde para Produto */
+}
+
+th:nth-child(3) {
+    background-color: #ff9800; /* Laranja para Preço */
+}
+
+th:nth-child(4) {
+    background-color: #2196f3; /* Azul para Foto */
+}
+
+th:nth-child(5) {
+    background-color: #9c27b0; /* Roxo para Ações */
+}
+
+/* Linhas Alternadas */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e6f7ff;
+}
+
+/* Imagem dentro da célula */
+td img {
+    width: 80px;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Botões */
+td button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Botão Deletar */
+td button:first-child {
+    background-color: #ff4d4f;
+    color: white;
+}
+
+td button:first-child:hover {
+    background-color: #d9363e;
+}
+
+/* Botão Visualizar */
+td button:last-child {
+    background-color: #4caf50;
+    color: white;
+}
+td button:last-child:hover {
+    background-color: #388e3c;
+}
+/* Botão Editar */
+td button:last-child {
+    background-color: rgba(187, 129, 22, 0.63);
+    color: white;
+}
+
+td button:last-child:hover {
+    background-color: rgba(148, 100, 11, 0.63);
+}
