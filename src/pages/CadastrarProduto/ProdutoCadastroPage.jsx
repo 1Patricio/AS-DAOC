@@ -29,11 +29,11 @@ function ProdutoCadastrar() {
     }
     return <> 
         <form onSubmit={handleSubmit}>
-            <input name="titulo" placeholder="Descrição" />
-            <input name="price" placeholder="Preço" />
-            <input name="description" placeholder="Descrição" />
-            <input name="images" placeholder="Foto (URL)" />
-            <button type="submit">Editar</button>
+            <input name="titulo" placeholder="Descrição" required />
+            <input name="price" placeholder="Preço" required />
+            <input name="description" placeholder="Descrição" required />
+            <input name="images" placeholder="Foto (URL)" required />
+            <button type="submit">Cadastrar</button>
         </form>
     </>
 }

@@ -1509,125 +1509,6 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Honey%20Jar/thumbnail.png"
     },
     {
-      "id": "28",
-      "title": "Ice Cream",
-      "description": "Creamy and delicious ice cream, available in various flavors for a delightful treat.",
-      "category": "groceries",
-      "price": 5.49,
-      "discountPercentage": 7.58,
-      "rating": 3.77,
-      "stock": 76,
-      "tags": [
-        "desserts"
-      ],
-      "sku": "VEZMU1EQ",
-      "weight": 5,
-      "dimensions": {
-        "width": 17.66,
-        "height": 24.49,
-        "depth": 25.98
-      },
-      "warrantyInformation": "2 year warranty",
-      "shippingInformation": "Ships in 2 weeks",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Great product!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Elena Baker",
-          "reviewerEmail": "elena.baker@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Highly impressed!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Madeline Simpson",
-          "reviewerEmail": "madeline.simpson@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Very happy with my purchase!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Caleb Nelson",
-          "reviewerEmail": "caleb.nelson@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "No return policy",
-      "minimumOrderQuantity": 19,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.620Z",
-        "updatedAt": "2024-05-23T08:56:21.620Z",
-        "barcode": "9603960319256",
-        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/products/images/groceries/Ice%20Cream/1.png",
-        "https://cdn.dummyjson.com/products/images/groceries/Ice%20Cream/2.png",
-        "https://cdn.dummyjson.com/products/images/groceries/Ice%20Cream/3.png",
-        "https://cdn.dummyjson.com/products/images/groceries/Ice%20Cream/4.png"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Ice%20Cream/thumbnail.png"
-    },
-    {
-      "id": "29",
-      "title": "Juice",
-      "description": "Refreshing fruit juice, packed with vitamins and great for staying hydrated.",
-      "category": "groceries",
-      "price": 3.99,
-      "discountPercentage": 5.45,
-      "rating": 3.41,
-      "stock": 99,
-      "tags": [
-        "beverages"
-      ],
-      "sku": "M2K19S06",
-      "weight": 2,
-      "dimensions": {
-        "width": 8.97,
-        "height": 12.26,
-        "depth": 15.05
-      },
-      "warrantyInformation": "1 week warranty",
-      "shippingInformation": "Ships in 1-2 business days",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Very satisfied!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Leo Rivera",
-          "reviewerEmail": "leo.rivera@x.dummyjson.com"
-        },
-        {
-          "rating": 2,
-          "comment": "Not worth the price!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Ethan Martinez",
-          "reviewerEmail": "ethan.martinez@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Excellent quality!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Max Parker",
-          "reviewerEmail": "max.parker@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "90 days return policy",
-      "minimumOrderQuantity": 26,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.620Z",
-        "updatedAt": "2024-05-23T08:56:21.620Z",
-        "barcode": "8546824122355",
-        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/products/images/groceries/Juice/1.png"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Juice/thumbnail.png"
-    },
-    {
       "id": "30",
       "title": "Kiwi",
       "description": "Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes.",
@@ -1684,9 +1565,25 @@
         "https://cdn.dummyjson.com/products/images/groceries/Kiwi/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Kiwi/thumbnail.png"
+    },
+    {
+      "title": "Tênis Nike",
+      "price": "199,90",
+      "description": "Estiloso e Casual",
+      "images": [
+        "https://imgnike-a.akamaihd.net/1300x1300/011137IDA10.jpg"
+      ],
+      "id": "31"
+    },
+    {
+      "id": "89c1",
+      "titulo": null,
+      "price": "5",
+      "description": "Anderson ",
+      "images": "data:image/webp;base64,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"
     }
   ],
   "total": 194,
   "skip": 0,
-  "limit": 30
+  "limit": 35
 }

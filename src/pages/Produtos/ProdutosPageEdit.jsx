@@ -55,17 +55,19 @@ function ProdutoPageEdit() {
         <>
             <h1>Editar Produto</h1>
             <form onSubmit={handleSubmit}>
-                <input name="title" defaultValue={product.title} placeholder="Nome" />
-                <input name="price" defaultValue={product.price} placeholder="Preço" />
+                <input name="title" defaultValue={product.title} placeholder="Nome" required/>
+                <input name="price" defaultValue={product.price} placeholder="Preço" required />
                 <input
                     name="description"
                     defaultValue={product.description}
                     placeholder="Descrição"
+                    required
                 />
                 <input
                     name="images"
                     defaultValue={product.images[0]}
                     placeholder="Foto (URL)"
+                    required
                 />
                 <button type="submit">Salvar Alterações</button>
             </form>
